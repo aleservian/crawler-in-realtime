@@ -1,0 +1,10 @@
+doctype html
+html(lang='pt-br')
+  include includes/head.pug
+  body
+    section.gl
+        include includes/mainHeader.pug
+        section.mainContainer
+          block content
+        include includes/mainFooter.pug 
+    include includes/footerScripts.pug
