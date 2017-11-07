@@ -1,4 +1,16 @@
 extend template
 block content
-  div#count
-    span#count-result 0
+  div#panel
+    #spinner
+    div#count
+      .sp
+        span.count-legend Mini Índice: 
+        span#mini-indice 0
+      .sp
+        span.count-legend Índice Bovespa: 
+        span#ibov 0
+      .sp
+        span.count-legend Diferença: 
+        span#count-result 0
+    div#message
+      span Pregão funciona das 9 horas da manhã ate as 17 horas da tarde em dias comerciais.

@@ -7,7 +7,7 @@ const dirname = __dirname;
 const setupApp = configureExpress(dirname);
 const server = createServer(setupApp);
 let io = new SocketIO(server);
-const port = 3002;
+const port = 3000;
 
 realtime(io);
 
